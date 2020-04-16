@@ -22,3 +22,6 @@ function gbda -d "Delete all branches merged in current HEAD"
     command xargs -n 1 git branch -d
 end
 
+if command -v pyenv 1>/dev/null 2>&1
+    pyenv init - | source
+end
