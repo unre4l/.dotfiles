@@ -12,6 +12,7 @@ set SPACEFISH_PROMPT_ORDER time user dir host git exec_time line_sep jobs exit_c
 
 alias dup 'docker-compose up -d'
 alias dotfiles 'git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias venv 'source ./venv/bin/activate.fish'
 
 alias e 'nautilus'
 alias gs 'git status'
